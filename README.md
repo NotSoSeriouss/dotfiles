@@ -51,5 +51,5 @@ Feel free to customize any of these configurations to better suit your preferenc
 ## Dependencies
 You can install most of the dependencies with this command:
 ```
-yay -S neovim zsh oh-my-zsh-git git i3 polybar picom rofi btop neofetch xorg xorg-xinit openssh base-devel
+yay -S stow neovim zsh oh-my-zsh-git git i3 polybar picom rofi btop neofetch xorg xorg-xinit openssh base-devel
 ```
