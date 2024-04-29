@@ -29,7 +29,7 @@ Once cloned, you can set up the dotfiles by running the appropriate setup script
 - **git**: Configuration for the Git version control system.
 - **i3/.config/i3**: Configuration for the i3 window manager.
 - **neofetch/.config/neofetch**: Configuration for the neofetch system information tool.
-- **nvim/.config**: Configuration directory for the Neovim text editor.
+- **nvim/.config**: The configuration for nvim cannot be found in this repository, instead it has its own [repository](https://github.com/NotSoSeriouss/nvim-config).
 - **oh-my-zsh**: Configuration for the Oh My Zsh framework.
 - **p10k**: Configuration for the Powerlevel10k Zsh theme.
 - **picom/.config/picom**: Configuration for the picom compositor.
