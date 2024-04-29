@@ -8,7 +8,6 @@ This repository contains configuration files (dotfiles) for various applications
 - [Included Dotfiles](#included-dotfiles)
 - [Usage](#usage)
 - [Customization](#customization)
-- [License](#license)
 - [Install Deps](#dependencies)
 
 ## Installation
