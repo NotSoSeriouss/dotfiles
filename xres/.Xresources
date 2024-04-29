@@ -1,0 +1,57 @@
+Xft.dpi: 220
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgba
+
+!! Colorscheme
+! special
+*.foreground: #dd0000
+*.background: #1b1d2b
+*.cursorColor: #ff0000
+! black
+*.color0: #1b1d2b
+*.color8: #444a73
+
+! red
+*.color1: #ff757f
+*.color9: #ff757f
+
+! green
+*.color2: #c3e88d
+*.color10: #c3e88d
+
+! yellow
+*.color3: #ffc777
+*.color11: #ffc777
+
+! blue
+*.color4: #82aaff
+*.color12: #82aaff
+
+! magenta
+*.color5: #c099ff
+*.color13: #c099ff
+
+! cyan
+*.color6: #86e1fc
+*.color14: #86e1fc
+
+! white
+*.color7: #828bb8
+*.color15: #c8d3f5
+
+
+!! Urxvt config
+URxvt.font: xft:Agave Nerd Font Mono:style=Regular:pixelsize=40:antialias=true:autohint=true
+URxvt.boldFont: xft:Agave Nerd Font Mono:style=Regular:pixelsize=40:antialias=true:autohint=true
+URxvt.italicFont: xft:Agave Nerd Font Mono:style=Regular:pixelsize=40:antialias=true:autohint=true
+URxvt.boldItalicFont: xft:Agave Nerd Font Mono:style=Regular:pixelsize=40:antialias=true:autohint=true
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24

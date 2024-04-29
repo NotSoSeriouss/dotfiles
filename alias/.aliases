@@ -1,0 +1,26 @@
+#!/bin/bash
+adl() {
+	echo "alias $1='cd ${PWD}'" >> ~/.cAliases
+	exec zsh
+}
+
+tglbrght() {
+	BRT=$(xrandr --verbose | grep -i brightness | cut -f 2 -d ' ')
+	if [[ "$BRT" == "1.0" ]] then
+		xrandr --output eDP-1 --brightness .4
+	else
+		xrandr --output eDP-1 --brightness 1
+	fi
+}
+
+source ~/.cAliases
+
+alias purge-custom="echo '' > ~/.cAliases"
+alias car="cat"
+alias so="exec zsh"
+alias fehf="feh --bg-fill"
+alias vm='nvim .'
+alias sugg="gh copilot suggest"
+alias t="tmux"
+alias ta="tmux a"
+alias appunti="nvim ~/appunti"
