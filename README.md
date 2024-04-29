@@ -42,7 +42,7 @@ Once cloned, you can set up the dotfiles by running the appropriate setup script
 
 ## Usage
 
-After installation, the configurations should take effect the next time you start the respective applications or shell sessions.
+After installation, either run ```stow [package name]``` or ```stow *``` inside the ```.dotfiles``` folder to sync the dotfiles
 
 ## Customization
 
