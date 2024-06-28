@@ -1,7 +1,0 @@
-alias uni='cd /home/pollo/pjs/c/uni'
-alias poly='cd /etc/polybar'
-alias nvimconf='cd /home/pollo/.config/nvim'
-alias test='cd /home/pollo/pjs/c/uni/test'
-alias origins='cd /home/pollo/pjs/go/origins'
-alias grubt='cd /usr/share/grub/themes'
-alias dot='cd /home/pollo/.dotfiles'
